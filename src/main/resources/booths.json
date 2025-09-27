@@ -48,10 +48,8 @@
       {"name":"두부김치","category":"안주","price":8000},
       {"name":"오뎅탕","category":"안주","price":8000},
       {"name":"소시지볶음","category":"안주","price":6000},
-      {"name":"떡볶이","category":"안주","price":7000}
-    ],
-    "extras": [
-      {"content": "안주 최소 2개 이상 주문 시 술 무제한"}
+      {"name":"떡볶이","category":"안주","price":7000},
+      {"name":"안주 최소 2개 이상 주문 시 술 무제한","category":"이벤트","price":0}
     ]
   },
   {
@@ -155,9 +153,7 @@
           }
         ]
       }
-    ],
-    "extras": [],
-    "products": []
+    ]
   },
   {
     "name": "AIESEC GHOST HOUSE:내 얘기를 들어줘",
@@ -174,10 +170,8 @@
       {"name":"나쵸","category":"안주","price":4000},
       {"name":"오뎅탕","category":"안주","price":6000},
       {"name":"소시지볶음","category":"안주","price":6000},
-      {"name":"아이스크림 팬케이크","category":"안주","price":5500}
-    ],
-    "extras": [
-      {"content": "1,5000원 이상 주문 시 주류 한 병 제공"}
+      {"name":"아이스크림 팬케이크","category":"안주","price":5500},
+      {"name":"1,5000원 이상 주문 시 주류 한 병 제공","category":"이벤트","price":0}
     ]
   },
   {
@@ -189,56 +183,59 @@
     "detailLocation": "주점 2번",
     "organizer": "고토노하",
     "mapImageUrl": null,
+    "timeNote": null,
     "menus": [
-      { "name": "타코야끼", "category": "안주", "price": 7000 },
-      { "name": "교자", "category": "안주", "price": 6500 },
-      { "name": "치킨 가라아게", "category": "안주", "price": 6000 },
-      { "name": "뻥튀기 小", "category": "안주", "price": 1500 },
-      { "name": "뻥튀기 中", "category": "안주", "price": 2000 },
-      { "name": "펩시 제로 라임", "category": "음료", "price": 2000 },
-      { "setMenus": [
-        {
-          "name": "맥주set",
-          "variants": [
-            {
-              "items": ["타코야끼", "교자"],
-              "price": 13000,
-              "note": "주문 시 맥주 2잔 증정"
-            },
-            {
-              "items": ["타코야끼", "가라아게"],
-              "price": 12500,
-              "note": "주문 시 맥주 2잔 증정"
-            },
-            {
-              "items": ["타코야끼", "교자", "가라아게"],
-              "price": 18500,
-              "note": "주문 시 맥주 3잔 증정"
-            }
-          ]
-        },
-        {
-          "name": "하이set",
-          "variants": [
-            {
-              "items": ["타코야끼", "교자", "뻥튀기 小"],
-              "price": 14000,
-              "note": "주문 시 하이볼 2잔 증정"
-            },
-            {
-              "items": ["타코야끼", "가라아게", "뻥튀기 小"],
-              "price": 13500,
-              "note": "주문 시 하이볼 2잔 증정"
-            },
-            {
-              "items": ["타코야끼", "교자", "가라아게", "뻥튀기 中"],
-              "price": 19000,
-              "note": "주문 시 하이볼 3잔 증정"
-            }
-          ]
-        }
-      ]}
-    ]
+      { "name": "타코야끼", "category": "안주", "price": 7000, "note": null },
+      { "name": "교자", "category": "안주", "price": 6500, "note": null },
+      { "name": "치킨 가라아게", "category": "안주", "price": 6000, "note": null },
+      { "name": "뻥튀기 小", "category": "안주", "price": 1500, "note": null },
+      { "name": "뻥튀기 中", "category": "안주", "price": 2000, "note": null },
+      { "name": "펩시 제로 라임", "category": "음료", "price": 2000, "note": null }
+    ],
+    "setMenus": [
+      {
+        "name": "맥주set",
+        "variants": [
+          {
+            "items": ["타코야끼", "교자"],
+            "price": 13000,
+            "note": "주문 시 맥주 2잔 증정"
+          },
+          {
+            "items": ["타코야끼", "가라아게"],
+            "price": 12500,
+            "note": "주문 시 맥주 2잔 증정"
+          },
+          {
+            "items": ["타코야끼", "교자", "가라아게"],
+            "price": 18500,
+            "note": "주문 시 맥주 3잔 증정"
+          }
+        ]
+      },
+      {
+        "name": "하이set",
+        "variants": [
+          {
+            "items": ["타코야끼", "교자", "뻥튀기 小"],
+            "price": 14000,
+            "note": "주문 시 하이볼 2잔 증정"
+          },
+          {
+            "items": ["타코야끼", "가라아게", "뻥튀기 小"],
+            "price": 13500,
+            "note": "주문 시 하이볼 2잔 증정"
+          },
+          {
+            "items": ["타코야끼", "교자", "가라아게", "뻥튀기 中"],
+            "price": 19000,
+            "note": "주문 시 하이볼 3잔 증정"
+          }
+        ]
+      }
+    ],
+    "products": [],
+    "schedules": []
   },
   {"name":"ghost UN","category":"주점","subCategory":"없음","description":null,"location":"운동장","detailLocation":null,"organizer":null,"mapImageUrl":null,"timeNote":""},
   {
